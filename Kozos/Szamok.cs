@@ -63,6 +63,9 @@ namespace Kozos
         public int Szam5 { get; set; }
         public int Szam6 { get; set; }
 
-
+        public override string? ToString()
+        {
+            return $"{Szam1}; {Szam2}; {Szam3}; {Szam4}; {Szam5}; {Szam6}";
+        }
     }
 }
